@@ -4,10 +4,10 @@ from withdraw_money import withdraw
 
 def ATM():
     while True:
-        print("\n1.deposite money")
-        print("2.show money")
-        print("3.withdraw money")
-        print("4.Exit")
+        print("\n1.Add money")
+        print("2.Check balance")
+        print("3.Withdraw Cash")
+        print("4.Exit ATM")
         choice = int(input("Enter your choice:"))
 
         if choice==1:
@@ -17,9 +17,9 @@ def ATM():
         elif choice==3:
             withdraw()
         elif choice==4:
-            print("thank you for visit")
+            print("Thank you for using our ATM")
             break
         else:
-            print("invalid choice")
+            print("Please enter a valid choice")
 ATM()
 
